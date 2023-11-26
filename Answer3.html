@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content = "width= device-width">
+        <title> Answer 5</title>
+        <style>
+            .Firstname{
+                background-color:cadetblue;
+            }
+            .Firstname{
+                color:chartreuse;
+            }
+            .Lastname{
+                background-color: cadetblue;
+            }
+            .terms{
+                accent-color: blue;
+            }
+            #button{
+                background-color:gold;
+                opacity: 30%;
+            }
+        </style>
+    </head>
+    <body>
+        <form action ="">
+            <label for = "Firstname">Firstname </label>
+            <input type ="text" name ="Firstname" placeholder = "PHYSICS" class="Firstname"required minlength="3" maxlength="15">
+            <label for = "Lastname">Lastname </label>
+            <input type ="text" name="Lastname" placeholder = "Wallah"class="Lastname" required minlength="3" maxlength="15"><br><br>
+            <label for = "Mail">Mail ID :</label>
+            <input type ="mailid" name="Mail"placeholder = "abc@xyz.com" required><br><br>
+            <label for = "Password">Password :</label>
+            <input type = "password" name="Password"placeholder ="******" required ><br><br>
+            <LABEL FOR=" ConfirmPassword">Confirm Password:</LABEL>
+            <input type ="password" name="ConfirmPassword"placeholder="******" required><br><br>
+            <label for="age">Age: </label>
+            <input type="number" name="age" placeholder="00" required min="18" max="150"><br><br>
+            <label for="">Gender:</label>
+                
+                <input type ="radio" name="gender" value="male" id="male">
+                <label for="male">Male</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                <input type ="radio" name="gender" value="female" id="male">
+                <label for="female">Female</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                <input type ="radio" name="gender" value="other" id="male">
+                <label for="other">Other</label><br>
+            
+            <lable for ="terms">Terms & Conditions: 
+                <input type="checkbox" name="terms" class="terms" required >I am agree to Terms & condition.</lable><br><br>
+            <label for ="register">Submit & Register</label>
+            <button type="submit" id="button">Submit & Register</button>
+        </form>
+    </body>
+</html>

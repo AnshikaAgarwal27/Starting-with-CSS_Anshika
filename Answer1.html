@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name ="viewport" content="width=device width">
+        <title>Answer1</title>
+        <!--Internal css style is added as bekow under style tag:-->
+        <style>
+            .Internal{
+                color: red;
+            }
+            .Inline_internal{
+                color:indianred;
+            }
+            .Internal_external{
+                color:violet;
+            }
+            .Inline_Internal_external{
+                color:chocolate;
+            }
+        </style>
+         <link rel ="stylesheet" href="Answer1.css"><!--This is External css file link -->
+    </head>
+    <body>
+        <div style ="color:aqua">I am Inline</div><!--This is Inline css-->
+        <div class ="Internal"> I am Internal</div>
+        </div><div class ="External">I am External</div>
+        <div style ="color:lawngreen"></div><div class="Inline_internal" >I am Inline+Internal</div>
+        <div style ="color:gold"></div><div class="Inline_external">I am Inline+External</div>
+        <div class="Internal_external">I am Internal+External</div>
+        <div style ="color:rgb(8, 39, 8)"></div><div class="Inline_Internal_external">I am Inline+Internal+External</div>
+    </body>
+</html>

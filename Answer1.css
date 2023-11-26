@@ -1,0 +1,13 @@
+.External{
+    color:darkmagenta;
+}
+
+.Inline_external{
+    color:midnightblue;
+}
+.Internal_external{
+    color:darkslategrey;
+}
+.Inline_Internal_external{
+    color:black;
+}
